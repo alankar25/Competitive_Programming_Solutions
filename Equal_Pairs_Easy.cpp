@@ -35,7 +35,7 @@ void solve(){
         }
         maxi=max(maxi,it.second);
     }
-    if(cnt0==n) cout<<n<<endl;
+    if(cnt0==n) cout<<(n*(n-1))/2<<endl;
     else if(cnt0==0) cout<<ans<<endl;
     else{
         int p=0;
